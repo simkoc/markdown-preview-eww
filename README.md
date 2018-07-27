@@ -1,4 +1,8 @@
-# markdown-preview-eww.el
+# markdown-live-eww-preview-mode
+
+This is a fork of the original mardown-preview-eww. I opted to make it a major emacs
+mode as well as improving the hook so again the changes are displayed live (didn't 
+work for me on the original repo).
 
 Realtime preview by eww.
 

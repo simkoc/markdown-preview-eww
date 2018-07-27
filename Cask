@@ -1,7 +1,7 @@
 (source gnu)
 (source melpa)
 
-(package-file "realtime-preview" "0.0.1" "Realtime preview by eww")
+(package-file "markdown-live-eww-preview-mode" "0.1" "Realtime preview for markdown using eww")
 
 (development
  (depends-on "f")
