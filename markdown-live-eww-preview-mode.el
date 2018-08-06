@@ -61,10 +61,9 @@ end
 
 (defun initial-open-tmp-file-in-eww ()
   (let ((cb (current-buffer)))
+    (delete-other-windows)
     (split-window-horizontally)
-    (message "well I am at least here a")
     (other-window 1)
-    (message "well I am at least here b")
     (eww-open-file markdown-preview-eww-output-file-name)
     (other-window -1)))
 
